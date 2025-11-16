@@ -1,10 +1,16 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+File: vite-react-ts-example/src/App.tsx
+import React from 'react'
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <p>
+          Vite + React + Typescript Example
+        </p>
+      </header>
+    </div>
+  )
+}
+
+export default App
